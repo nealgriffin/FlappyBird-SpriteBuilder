@@ -59,6 +59,7 @@
     _grounds = @[_ground1, _ground2];
     _clouds = @[_cloud1, _cloud2];
     _bushes = @[_bush1, _bush2];
+    _parallaxBackground = [CCParallaxNode node];
     [_parallaxContainer addChild:_parallaxBackground];
     //Note that the brush ratio is larger than the cloud
     _bushParallaxRatio = ccp(0.9, 1);
